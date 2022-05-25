@@ -50,7 +50,6 @@
   .navbar {
     display: flex;
     @media screen and (max-width: 450px) {
-      padding: 0rem 0.3rem;
       justify-content: normal;
     }
     position: fixed;
@@ -82,7 +81,8 @@
       gap: 1rem;
       a {
         text-decoration: none;
-        color: #fbc531;
+        // color: #fbc531;
+        color: #fe4066;
         font-weight: 600;
         height: 100%;
         width: 100%;
@@ -94,7 +94,7 @@
         transition: border-bottom 100ms ease-in;
         &:hover {
           padding-bottom: 0.1rem;
-          border-bottom: 5px solid #fbc531;
+          border-bottom: 5px solid #fe4066;
         }
       }
     }
@@ -153,13 +153,12 @@
 
       .body__intro__buttons {
         .our__menu {
-          background-color: #fff200;
+          background-color: #fe4066;
           border-radius: 1.25rem;
           cursor: pointer;
           border: none;
-          color: rgb(31 41 55);
+          color: #ffffff;
           text-transform: uppercase;
-          border: 2px solid #fffa65;
           font-weight: bold;
           font-size: 1rem;
           padding: 1rem 1rem;
@@ -167,7 +166,7 @@
           font-weight: bold;
           transition: background-color 200ms ease-in;
           &:hover {
-            background-color: #fffa65;
+            background-color: #f05170;
           }
         }
       }
