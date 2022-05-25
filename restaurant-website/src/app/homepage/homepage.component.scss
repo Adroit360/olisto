@@ -154,14 +154,14 @@
       .body__intro__buttons {
         .our__menu {
           background-color: #fe4066;
-          border-radius: 1.25rem;
+          border-radius: 10px;
           cursor: pointer;
           border: none;
           color: #ffffff;
           text-transform: uppercase;
           font-weight: bold;
           font-size: 1rem;
-          padding: 1rem 1rem;
+          padding: 1rem 2rem;
           font-family: "Poppins", sans-serif;
           font-weight: bold;
           transition: background-color 200ms ease-in;
@@ -178,18 +178,18 @@
       flex-direction: column;
       width: 100%;
       background-color: #ffffff;
-
       margin: auto;
       gap: 3rem;
-      h1 {
-        text-align: center;
-        text-transform: uppercase;
-        padding: 1rem 0rem;
-        margin-top: 4rem;
-        color: rgb(31 41 55);
-      }
     }
   }
+}
+
+.menu__heading {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1rem 0rem;
+  margin-top: 4rem;
+  color: rgb(31 41 55);
 }
 
 .menu__container {
